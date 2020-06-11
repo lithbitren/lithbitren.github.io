@@ -1,3 +1,3 @@
 setTimeout(() => {
-    alert('hello world!')
+    document.body.innerHTML = 'world <div>hello!</div>'
 }, 2000)
